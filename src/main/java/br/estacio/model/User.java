@@ -10,6 +10,10 @@ public class User {
 	public long getId() {
 		return id;
 	}
+	
+	public User(){
+		
+	}
 	public void setId(long id) {
 		this.id = id;
 	}
@@ -30,6 +34,8 @@ public class User {
 	}
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
+		
+		
 	}
 
 }
